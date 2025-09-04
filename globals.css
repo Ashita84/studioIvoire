@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --ivory:#F8F6F0;
+  --sand:#E5DACF;
+  --charcoal:#2F2B28;
+  --espresso:#3C2F2F;
+  --burgundy:#6A1B2D;
+  --plum:#5A2A3A;
+  --gold:#C8A951;
+}
+
+body { @apply bg-ivory text-charcoal font-sans; }
+.container-pad { @apply max-w-[1200px] mx-auto px-6 md:px-8; }
